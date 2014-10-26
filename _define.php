@@ -14,7 +14,10 @@ if (!defined('DC_RC_PATH')) { return; }
 
 $this->registerModule(
 	/* Name */			"Café Crème",
-	/* Description*/		"Structure Aorakit-1B de Kozlika",
-	/* Author */			"Franck Paul",
-	/* Version */			'1.5'
+	/* Description*/	"Structure Aorakit-1B de Kozlika",
+	/* Author */		"Franck Paul",
+	/* Version */		'1.6',
+	array(
+		/* Type */		'type' =>			'theme'
+	)
 );
