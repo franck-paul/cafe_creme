@@ -1,23 +1,16 @@
 <?php
-# -- BEGIN LICENSE BLOCK ----------------------------------
-# This file is part of Café Crème, a theme for Dotclear 2.
-#
-# Copyright (c) Franck Paul and contributors
-# carnet.franck.paul@gmail.com
-#
-# Licensed under the GPL version 2.0 license.
-# A copy of this license is available in LICENSE file or at
-# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-# -- END LICENSE BLOCK ------------------------------------
+/**
+ * @brief cafe-creme, a theme for Dotclear 2
+ *
+ * @package Dotclear
+ * @subpackage Themes
+ *
+ * @copyright Olivier Meunier & Association Dotclear
+ * @copyright GPL-2.0-only
+ */
 
-if (!defined('DC_RC_PATH')) { return; }
+namespace themes\cafe_creme;
 
-$core->addBehavior('publicPrepend',array('behaviorCafeCremeTheme','publicPrepend'));
+if (!defined('DC_RC_PATH')) {return;}
 
-class behaviorCafeCremeTheme
-{
-	public static function publicPrepend($core)
-	{
-		$core->themes->loadModuleL10N($GLOBALS['__theme'],$GLOBALS['_lang'],'main');
-	}
-}
+\l10n::set(dirname(__FILE__) . '/locales/' . $_lang . '/main');
