@@ -1,8 +1,8 @@
 <modules xmlns:da="http://dotaddict.org/da/">
   <module id="cafe-creme">
-    <name>Structure Aorakit-1B de Kozlika</name>
+    <name>Café Crème</name>
     <version>1.7</version>
-    <author>Structure Aorakit-1B de Kozlika</author>
+    <author>Franck Paul</author>
     <desc>Structure Aorakit-1B de Kozlika</desc>
     <file>https://github.com/franck-paul/cafe-creme/releases/download/1.7/theme-cafe-creme-1.7.zip</file>
     <da:dcmin>2.19</da:dcmin>
