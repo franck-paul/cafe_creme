@@ -1,33 +1,26 @@
 msgid "Message"
-msgstr ""
-
-msgid "Next day"
-msgstr ""
-
-#, fuzzy
-msgid "Previous day"
-msgstr "billet plus ancien"
+msgstr "Message"
 
 msgid "Subject"
-msgstr ""
+msgstr "Sujet"
 
 msgid "This category's comments RSS feed"
-msgstr ""
+msgstr "Flux RSS des commentaires de cette catégorie"
 
 msgid "This category's entries RSS feed"
-msgstr ""
+msgstr "Flux RSS des billets de cette catégorie"
 
 msgid "This page's comments RSS feed"
-msgstr ""
+msgstr "Flux RSS des commentaires de cette page"
 
 msgid "This post's comments RSS feed"
-msgstr ""
+msgstr "Flux RSS des commentaires de ce billet"
 
 msgid "This tag's comments RSS feed"
-msgstr ""
+msgstr "Flux RSS des commentaires de ce mot-clé"
 
 msgid "This tag's entries RSS feed"
-msgstr ""
+msgstr "Flux RSS des billets de ce mot-clé"
 
 msgid "next entry"
 msgstr "billet plus r&eacute;cent"
@@ -35,11 +28,8 @@ msgstr "billet plus r&eacute;cent"
 msgid "previous entry"
 msgstr "billet plus ancien"
 
-#~ msgid "All tags"
-#~ msgstr "Tous les mots-cl&eacute;s"
+msgid "Next day"
+msgstr "Billet plus r&eacute;cent"
 
-#~ msgid "Tags"
-#~ msgstr "Mots-cl&eacute;s"
-
-#~ msgid "Tag"
-#~ msgstr "Mot-cl&eacute;"
+msgid "Previous day"
+msgstr "Billet plus ancien"
