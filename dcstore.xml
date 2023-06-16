@@ -1,12 +1,12 @@
 <modules xmlns:da="http://dotaddict.org/da/">
-  <module id="cafe-creme">
+  <module id="cafe_creme">
     <name>Café Crème</name>
     <version>2.0</version>
     <author>Franck Paul</author>
     <desc>Structure Aorakit-1B de Kozlika</desc>
-    <file>https://github.com/franck-paul/cafe-creme/releases/download/2.0/theme-cafe-creme-2.0.zip</file>
+    <file>https://github.com/franck-paul/cafe_creme/releases/download/2.0/theme-cafe_creme-2.0.zip</file>
     <da:dcmin>2.24</da:dcmin>
-    <da:details>https://open-time.net/?q=cafe-creme</da:details>
-    <da:support>https://github.com/franck-paul/cafe-creme</da:support>
+    <da:details>https://open-time.net/?q=cafe_creme</da:details>
+    <da:support>https://github.com/franck-paul/cafe_creme</da:support>
   </module>
 </modules>

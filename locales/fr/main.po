@@ -1,14 +1,45 @@
-msgid "previous entry"
+msgid "Message"
+msgstr ""
+
+msgid "Next day"
+msgstr ""
+
+#, fuzzy
+msgid "Previous day"
 msgstr "billet plus ancien"
+
+msgid "Subject"
+msgstr ""
+
+msgid "This category's comments RSS feed"
+msgstr ""
+
+msgid "This category's entries RSS feed"
+msgstr ""
+
+msgid "This page's comments RSS feed"
+msgstr ""
+
+msgid "This post's comments RSS feed"
+msgstr ""
+
+msgid "This tag's comments RSS feed"
+msgstr ""
+
+msgid "This tag's entries RSS feed"
+msgstr ""
 
 msgid "next entry"
 msgstr "billet plus r&eacute;cent"
 
-msgid "All tags"
-msgstr "Tous les mots-cl&eacute;s"
+msgid "previous entry"
+msgstr "billet plus ancien"
 
-msgid "Tags"
-msgstr "Mots-cl&eacute;s"
+#~ msgid "All tags"
+#~ msgstr "Tous les mots-cl&eacute;s"
 
-msgid "Tag"
-msgstr "Mot-cl&eacute;"
+#~ msgid "Tags"
+#~ msgstr "Mots-cl&eacute;s"
+
+#~ msgid "Tag"
+#~ msgstr "Mot-cl&eacute;"
