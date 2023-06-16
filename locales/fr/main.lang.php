@@ -12,6 +12,8 @@
 use Dotclear\Helper\L10n;
 
 L10n::$locales['Message'] = 'Message';
+L10n::$locales['Next day'] = 'Billet plus r&eacute;cent';
+L10n::$locales['Previous day'] = 'Billet plus ancien';
 L10n::$locales['Subject'] = 'Sujet';
 L10n::$locales['This category\'s comments RSS feed'] = 'Flux RSS des commentaires de cette catégorie';
 L10n::$locales['This category\'s entries RSS feed'] = 'Flux RSS des billets de cette catégorie';
@@ -21,5 +23,3 @@ L10n::$locales['This tag\'s comments RSS feed'] = 'Flux RSS des commentaires de 
 L10n::$locales['This tag\'s entries RSS feed'] = 'Flux RSS des billets de ce mot-clé';
 L10n::$locales['next entry'] = 'billet plus r&eacute;cent';
 L10n::$locales['previous entry'] = 'billet plus ancien';
-L10n::$locales['Next day'] = 'Billet plus r&eacute;cent';
-L10n::$locales['Previous day'] = 'Billet plus ancien';
