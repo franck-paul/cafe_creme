@@ -12,7 +12,7 @@ $this->registerModule(
     'Café Crème',
     'Structure Aorakit-1B de Kozlika',
     'Franck Paul',
-    '4.0',
+    '5.0',
     [
         'requires' => [['core', '2.28']],
         'type'     => 'theme',
