@@ -23,32 +23,43 @@ body {
   color: #351805;
   background: transparent url('images/fond.png') repeat-y center top;
   font-size: 76%;
-  font-family: "lucida grande", "gill sans", arial, sans-serif;
+  font-family: 'lucida grande', 'gill sans', arial, sans-serif;
 }
 
-h1 {}
+h1 {
+}
 
-h2 {}
+h2 {
+}
 
-h3 {}
+h3 {
+}
 
-h4 {}
+h4 {
+}
 
-h5 {}
+h5 {
+}
 
-h6 {}
+h6 {
+}
 
-p {}
+p {
+}
 
-img {}
+img {
+}
 
-sup {}
+sup {
+}
 
 abbr,
-acronym {}
+acronym {
+}
 
 blockquote,
-q {}
+q {
+}
 
 blockquote {
   background: transparent url(images/quote.gif) no-repeat scroll left top;
@@ -56,20 +67,25 @@ blockquote {
   padding: 0pt 0pt 0pt 70px;
 }
 
-cite {}
-
-[lang="fr"] q,
-q[lang="fr"] {
-  quotes: "« "" »";
+cite {
 }
 
-ul {}
+[lang='fr'] q,
+q[lang='fr'] {
+  quotes: '« ' ' »';
+}
 
-ol {}
+ul {
+}
 
-dl {}
+ol {
+}
 
-form {}
+dl {
+}
+
+form {
+}
 
 fieldset {
   border: none;
@@ -80,7 +96,7 @@ fieldset {
 
 input {
   padding: 0.25em 0.6em;
-  border: 1px solid #A65540;
+  border: 1px solid #a65540;
   background: #f7f7f7;
   border-radius: 4px;
   -moz-border-radius: 4px;
@@ -91,43 +107,55 @@ input:hover {
   border-color: #351805;
 }
 
-label {}
+label {
+}
 
 textarea {
   width: 95%;
 }
 
 a {
-  color: #FFFBCD;
+  color: #fffbcd;
   text-decoration: none;
   outline: none;
 }
 
-a:link {}
-
-a:visited {}
-
-a:hover {}
-
-a:focus {}
-
-a[hreflang]:after {
-  content: "\0000a0["attr(hreflang) "]";
+a:link {
 }
 
-a[hreflang|="fr"]:after {
-  content: "";
+a:visited {
+}
+
+a:hover {
+}
+
+a:focus {
+}
+
+a[hreflang]:after {
+  content: '\0000a0[' attr(hreflang) ']';
+}
+
+a[hreflang|='fr']:after {
+  content: '';
 }
 
 a[hreflang] {
   content: normal !important;
 }
 
-a img {}
+a img {
+}
 
 code,
 pre {
-  font: 1em "liberation mono", "Andale Mono", "DejaVu Sans Mono", "Courier New", Courier, monospace;
+  font:
+    1em 'liberation mono',
+    'Andale Mono',
+    'DejaVu Sans Mono',
+    'Courier New',
+    Courier,
+    monospace;
 }
 
 code {
@@ -141,7 +169,7 @@ code {
 pre {
   overflow: scroll;
   display: block;
-  border: solid 1px #692F09;
+  border: solid 1px #692f09;
   padding: 10px 20px 10px 30px;
   margin: 1em 1em 1em 0;
   text-align: left;
@@ -164,15 +192,28 @@ hr {
   margin: 2em 10em;
 }
 
+sup,
+sub {
+  font-size: calc(0.5em + 4px);
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
 sup {
-  line-height: 1em;
+  top: calc(-0.83 * (1em - 4px));
+}
+
+sub {
+  top: calc(0.415 * (1em - 4px));
 }
 
 /* ------------------------------------------------------------
   3. PAGE
 ------------------------------------------------------------- */
 
-#page {}
+#page {
+}
 
 /* ------------------------------------------------------------
   4. HAUT DE PAGE
@@ -188,24 +229,25 @@ sup {
 }
 
 #top h1 a {
-  color: #A88C42;
+  color: #a88c42;
   font-size: 0.8em;
 }
 
 #prelude {
   background: transparent url('images/cup_of_coffee-small.png') no-repeat right bottom;
-  color: #FFFBCD;
+  color: #fffbcd;
 }
 
 #prelude a {
-  color: #FFFBCD;
+  color: #fffbcd;
 }
 
 /* ------------------------------------------------------------
   5. WRAPPER MAIN CONTENT
 ------------------------------------------------------------- */
 
-#wrapper {}
+#wrapper {
+}
 
 #main {
   font-size: 1.05em;
@@ -213,17 +255,18 @@ sup {
 }
 
 #main a {
-  color: #A65540;
+  color: #a65540;
 }
 
-#content {}
+#content {
+}
 
 #content-img {
   color: #351805;
 }
 
 #content-img a {
-  color: #FFFBCD;
+  color: #fffbcd;
 }
 
 #content-img a:hover {
@@ -232,7 +275,7 @@ sup {
 
 #content-img h2 {
   text-align: center;
-  font-family: "lucida grande", "gill sans", arial, sans-serif;
+  font-family: 'lucida grande', 'gill sans', arial, sans-serif;
   font-weight: normal;
   font-size: 1em;
   text-transform: uppercase;
@@ -241,11 +284,12 @@ sup {
 }
 
 #content-img hr {
-  background-color: #D1BF81;
-  color: #D1BF81;
+  background-color: #d1bf81;
+  color: #d1bf81;
 }
 
-#content-text {}
+#content-text {
+}
 
 #content-text h2 {
   background: transparent url('images/grains-bis.png') no-repeat left top;
@@ -256,27 +300,31 @@ sup {
 }
 
 #content-text hr {
-  background-color: #692F09;
-  color: #692F09;
+  background-color: #692f09;
+  color: #692f09;
 }
 
 #content-text a:hover {
-  color: #405FA6;
+  color: #405fa6;
 }
 
-#content-info {}
+#content-info {
+}
 
-#content-info h2 {}
+#content-info h2 {
+}
 
-#content-info p {}
+#content-info p {
+}
 
-.content-inner {}
+.content-inner {
+}
 
 .pagination {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  border: 1px solid #D1BF81;
+  border: 1px solid #d1bf81;
   margin: 4em 1em 1em;
   padding: 1em;
   text-align: center;
@@ -286,7 +334,7 @@ sup {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  border: 1px solid #D1BF81;
+  border: 1px solid #d1bf81;
   margin: 4em 1em 1em;
   padding: 1em;
   text-align: center;
@@ -296,11 +344,14 @@ sup {
   6. BILLETS
 ------------------------------------------------------------- */
 
-.post {}
+.post {
+}
 
-.post.first {}
+.post.first {
+}
 
-.post.odd {}
+.post.odd {
+}
 
 .post h3,
 .post h4 {
@@ -311,14 +362,16 @@ sup {
   display: none;
 }
 
-.post-title {}
+.post-title {
+}
 
 .post-info,
 .page-info {
   font-style: italic;
 }
 
-.post-tags {}
+.post-tags {
+}
 
 ul.post-tags {
   list-style-type: none;
@@ -357,21 +410,24 @@ ul.post-tags li {
   text-align: right;
 }
 
-.read-it {}
+.read-it {
+}
 
 .footnotes {
   font-size: 0.9em;
   text-align: left;
 }
 
-.footnotes h4 {}
+.footnotes h4 {
+}
 
 #content-text .footnotes p {
   text-indent: 0;
   margin-top: 1.2em;
 }
 
-.post-info-co {}
+.post-info-co {
+}
 
 .comment_count {
   margin: 0pt 0pt 0pt 1.2em;
@@ -391,57 +447,77 @@ ul.post-tags li {
   background: transparent url('images/box.png') no-repeat left top;
 }
 
-#attachments {}
+#attachments {
+}
 
-#attachments h3 {}
+#attachments h3 {
+}
 
-#attachments ul {}
+#attachments ul {
+}
 
-#attachments ul li {}
+#attachments ul li {
+}
 
-#attachments li.audio {}
+#attachments li.audio {
+}
 
-#attachments li.package {}
+#attachments li.package {
+}
 
-#attachments li.text {}
+#attachments li.text {
+}
 
 /* ------------------------------------------------------------
   7. COMMENTAIRES, PINGS
 ------------------------------------------------------------- */
 
-#comments {}
+#comments {
+}
 
-#pings {}
+#pings {
+}
 
-#pr {}
+#pr {
+}
 
-#comment-form {}
+#comment-form {
+}
 
-#comments h3 {}
+#comments h3 {
+}
 
-#pings h3 {}
+#pings h3 {
+}
 
-#pr h3 {}
+#pr h3 {
+}
 
-#comment-form h3 {}
+#comment-form h3 {
+}
 
 #comments dl {
   font-size: 0.93em;
   line-height: 1.5em;
 }
 
-#comments dt {}
+#comments dt {
+}
 
-#comments dd {}
+#comments dd {
+}
 
-#comments .first {}
+#comments .first {
+}
 
-#comments .odd {}
+#comments .odd {
+}
 
-#comments .me {}
+#comments .me {
+}
 
 #comments dd.me {
-  color: #405FA6;
+  color: #405fa6;
   background: transparent url(images/cup_of_coffee-mini.png) no-repeat top left;
   margin-left: 0em;
   min-height: 3em;
@@ -449,7 +525,7 @@ ul.post-tags li {
 }
 
 #comments dd.me a:hover {
-  color: #692F09;
+  color: #692f09;
 }
 
 #comments dd.visitor {
@@ -464,31 +540,40 @@ ul.post-tags li {
   line-height: 1.5em;
 }
 
-#pings dt {}
+#pings dt {
+}
 
-#pings dd {}
+#pings dd {
+}
 
-#pings .first {}
+#pings .first {
+}
 
-#pings .odd {}
+#pings .odd {
+}
 
-#pings .me {}
+#pings .me {
+}
 
 #pings dd.me {
-  color: #405FA6;
+  color: #405fa6;
   background: transparent url(images/cup_of_coffee-mini.png) no-repeat top left;
   margin-left: 0em;
   min-height: 3em;
   padding-left: 3em;
 }
 
-#pr dl {}
+#pr dl {
+}
 
-#pr dd {}
+#pr dd {
+}
 
-#comment-form fieldset {}
+#comment-form fieldset {
+}
 
-.field {}
+.field {
+}
 
 .field label {
   clear: left;
@@ -498,38 +583,46 @@ ul.post-tags li {
 }
 
 .field input {
-  border: 1px solid #D1BF81;
+  border: 1px solid #d1bf81;
   padding: 0.25em;
 }
 
 .field textarea {
-  border: 1px solid #D1BF81;
+  border: 1px solid #d1bf81;
   padding: 0.5em;
 }
 
-#comment-form input[type=submit] {}
+#comment-form input[type='submit'] {
+}
 
-#comment-form input[type=reset] {}
+#comment-form input[type='reset'] {
+}
 
-.form-help {}
+.form-help {
+}
 
-#ping-url {}
+#ping-url {
+}
 
-#comments-feed {}
+#comments-feed {
+}
 
 /* ------------------------------------------------------------
   8. SIDEBAR
 ------------------------------------------------------------- */
 
 #sidebar {
-  color: #692F09;
+  color: #692f09;
 }
 
-#blognav {}
+#blognav {
+}
 
-#blogextra {}
+#blogextra {
+}
 
-#blogextra a {}
+#blogextra a {
+}
 
 #blognav a:hover,
 #blogextra a:hover {
@@ -544,19 +637,23 @@ ul.post-tags li {
   font-size: 1em;
 }
 
-#sidebar ul {}
+#sidebar ul {
+}
 
-#sidebar li {}
+#sidebar li {
+}
 
 /* boites du menu des widgets livres avec Dotclear */
 
-#search {}
+#search {
+}
 
-#search form {}
+#search form {
+}
 
-#search input[type=text] {
-  background: #FFFBCD url(images/magnifier.png) no-repeat scroll 0.5em center;
-  border: 1px solid #FFFBCD;
+#search input[type='text'] {
+  background: #fffbcd url(images/magnifier.png) no-repeat scroll 0.5em center;
+  border: 1px solid #fffbcd;
   margin-left: 3.5em;
   padding: 0.25em 0.25em 0.25em 2.5em;
   width: 12em;
@@ -567,47 +664,62 @@ ul.post-tags li {
 
 /* ou #search #q */
 
-#search input[type=submit] {}
+#search input[type='submit'] {
+}
 
 /* ou #search .submit */
 
-#topnav {}
+#topnav {
+}
 
 #topnav ul li,
 #topnav ul li a {
   display: inline;
 }
 
-.topnav-arch {}
+.topnav-arch {
+}
 
-.topnav-home {}
+.topnav-home {
+}
 
-.selected {}
+.selected {
+}
 
-.langs {}
+.langs {
+}
 
-.categories {}
+.categories {
+}
 
-.syndicate {}
+.syndicate {
+}
 
 .syndicate ul {
   list-style: none;
   margin-left: -16px;
 }
 
-.lastposts {}
+.lastposts {
+}
 
-.lastcomments {}
+.lastcomments {
+}
 
-.text {}
+.text {
+}
 
-.links {}
+.links {
+}
 
-.tags {}
+.tags {
+}
 
-.tags ul {}
+.tags ul {
+}
 
-.tags li {}
+.tags li {
+}
 
 /* a completer separement ou globalement pour le sidebar et la page
 specifique des tags avec les differentes class des tags en fonction
@@ -618,14 +730,15 @@ de leur frequence - voir 9/ classes communes */
 ------------------------------------------------------------- */
 
 #footer {
-  color: #692F09;
+  color: #692f09;
 }
 
 #footer a {
-  color: #A65540;
+  color: #a65540;
 }
 
-#footer p {}
+#footer p {
+}
 
 /* ------------------------------------------------------------
   10. CLASSES COMMUNES
@@ -768,11 +881,11 @@ feed.png a piocher dans le theme par defaut par ex.) */
 }
 
 .little-text {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .little-upper-text {
-  font-size: .8em;
+  font-size: 0.8em;
   text-transform: uppercase;
 }
 
@@ -782,25 +895,31 @@ feed.png a piocher dans le theme par defaut par ex.) */
   plus precisement (cf l'exemple ci-dessus pour les tags)
 ------------------------------------------------------------- */
 
-.dc-home {}
+.dc-home {
+}
 
 .dc-home #blogextra a {
-  color: #A88C42;
+  color: #a88c42;
 }
 
 .dc-home #blogextra a:hover {
   color: #351805;
 }
 
-.dc-post {}
+.dc-post {
+}
 
-.dc-categories {}
+.dc-categories {
+}
 
-.dc-category {}
+.dc-category {
+}
 
-.dc-archive {}
+.dc-archive {
+}
 
-.dc-archive-month {}
+.dc-archive-month {
+}
 
 .dc-archive-month #content-text p.post-content {
   margin-left: 3em;
@@ -820,13 +939,17 @@ feed.png a piocher dans le theme par defaut par ex.) */
   margin-left: 2em;
 }
 
-.dc-tags {}
+.dc-tags {
+}
 
-.dc-tag {}
+.dc-tag {
+}
 
-.dc-404 {}
+.dc-404 {
+}
 
-.dc-search {}
+.dc-search {
+}
 
 /* ---------------------------------------------------
   12. ET POUR FINIR NE PAS OUBLIER LES CLEARERS
@@ -848,12 +971,12 @@ feed.png a piocher dans le theme par defaut par ex.) */
 --------------------------------------------------- */
 
 #content img {
-  border: 1px solid #59391D;
+  border: 1px solid #59391d;
   padding: 0px;
 }
 
-#content img[src^="/public/"] {
-  border: 8px solid #D1BF81;
+#content img[src^='/public/'] {
+  border: 8px solid #d1bf81;
   padding: 1px;
 }
 
