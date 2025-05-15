@@ -22,5 +22,6 @@ $this->registerModule(
         'details'    => 'https://open-time.net/?q=cafe_creme',
         'support'    => 'https://github.com/franck-paul/cafe_creme',
         'repository' => 'https://raw.githubusercontent.com/franck-paul/cafe_creme/main/dcstore.xml',
+        'license'    => 'gpl2',
     ]
 );
