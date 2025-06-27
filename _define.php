@@ -13,11 +13,12 @@ $this->registerModule(
     'Café Crème',
     'Structure Aorakit-1B de Kozlika',
     'Franck Paul',
-    '5.3',
+    '6.0',
     [
         'date'     => '2025-05-15T18:46:05+0200',
-        'requires' => [['core', '2.28']],
+        'requires' => [['core', '2.35']],
         'type'     => 'theme',
+        'overload' => true,
 
         'details'    => 'https://open-time.net/?q=cafe_creme',
         'support'    => 'https://github.com/franck-paul/cafe_creme',
