@@ -13,9 +13,9 @@ $this->registerModule(
     'Café Crème',
     'Structure Aorakit-1B de Kozlika',
     'Franck Paul',
-    '6.0',
+    '7.0',
     [
-        'date'     => '2025-05-15T18:46:05+0200',
+        'date'     => '2025-06-27T11:06:43+0200',
         'requires' => [['core', '2.35']],
         'type'     => 'theme',
         'overload' => true,
