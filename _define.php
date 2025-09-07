@@ -16,7 +16,7 @@ $this->registerModule(
     '7.1',
     [
         'date'     => '2025-06-30T10:00:03+0200',
-        'requires' => [['core', '2.35']],
+        'requires' => [['core', '2.36']],
         'type'     => 'theme',
         'overload' => true,
 
