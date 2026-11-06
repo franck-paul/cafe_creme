@@ -16,9 +16,9 @@ if (isset($this) && is_object($this) && method_exists($this, 'registerModule') &
         'Café Crème',
         'Structure Aorakit-1B de Kozlika',
         'Franck Paul',
-        '8.2',
+        '8.3',
         [
-            'date'     => '2026-04-05T12:02:52+0200',
+            'date'     => '2026-11-06T10:00:13+0100',
             'requires' => [['core', '2.36']],
             'type'     => 'theme',
             'overload' => true,
